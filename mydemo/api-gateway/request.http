@@ -1,0 +1,17 @@
+GET http://localhost:8082/api/v1/comics
+
+### 
+
+GET http://localhost:9090/api/v1/comics
+
+
+###
+
+GET http://localhost:9090/library
+
+
+###
+# restTemplate - FeignClient
+GET http://localhost:9090/library/comic
+
+
