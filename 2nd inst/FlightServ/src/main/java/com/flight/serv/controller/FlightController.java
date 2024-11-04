@@ -27,7 +27,7 @@ public class FlightController {
 	@PostMapping("/addFlight")
 	@ExceptionHandler(RecordAlreadyPresentException.class)
 	public void addFlight(@RequestBody Flight flight) {
-		flight.setStatus("unblocked");
+		flight.setStatus("unblocked");  
 		flightService.addFlight(flight);
 	}
 
